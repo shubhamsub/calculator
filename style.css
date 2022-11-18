@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 0.5;
+    background: rgb(187, 195, 34);
+    background: linear-gradient(0deg, rgba(187, 195, 34, 0.7663551401869159) 0%, rgba(253, 132, 45, 0.6214953271028038) 67%);
+}
+
+#calcu {
+    color: rgb(247, 30, 30);
+    margin-top: 70px;
+    text-align: center;
+    /* text-transform: uppercase; */
+    letter-spacing: 3px;
+    text-shadow: 1px 2px 6px black;
+    font-family: Sofia;
+    font-weight: 700px;
+    /* text-decoration: underline; */
+    font-size: 40px;
+    /* left: 13.5em; */
+
+}
+
+#mname {
+    padding-top: 2px;
+    margin-top: 455px;
+    text-align: center;
+    /* font-family: sans-serif; */
+    font-family: 'BhuTuka Expanded One', cursive;
+    font-weight: 40px;
+    font-size: 18px;
+    /* left: 40em; */
+
+}
+
+.calc {
+    border: 2px solid orangered;
+    border-radius: 25px;
+    width: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.25;
+    text-align: center;
+}
+
+#display {
+    border: 2px solid orangered;
+    background: white;
+    border-radius: 30px;
+    width: 300;
+    font-size: 30;
+    font-family: sans-serif;
+    font-weight: 300;
+    height: 60;
+    margin: auto;
+    color: rgb(0, 0, 0);
+
+
+}
+
+.btnDesign {
+    border: none;
+    border-radius: 30px;
+    width: 70;
+    height: 60;
+    font-size: 30;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin: 1.5;
+    padding-top: -1.5;
+}
+
+.opDesign {
+    border: none;
+    border-radius: 30px;
+    width: 70;
+    height: 60;
+    font-size: 30;
+    font-family: sans-serif;
+    font-weight: 200;
+    margin: 1.5;
+    padding-top: -1;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+.opDesign:hover {
+    background-color: orangered;
+
+}
+
+.btnDesign:hover {
+    background-color: rgb(187, 195, 34);
+
+}
